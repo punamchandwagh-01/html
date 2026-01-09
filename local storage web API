@@ -1,0 +1,17 @@
+// Local Storage Web API
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="saveData()">Save</button>
+
+<script>
+function saveData() {
+  localStorage.setItem("name", "Student");
+}
+</script>
+
+</body>
+</html>
